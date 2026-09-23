@@ -23,6 +23,8 @@ For at least 4 of my 5 test questions, the retrieved chunks include one that
 contains the answer.
 
 **Why this target:**
+
+The project is built around a corpus with many relevant documents. 
 <!-- e.g. "One of my questions is about a topic only two documents mention, so
      I expect that one to be hard." -->
 
@@ -33,6 +35,8 @@ contains the answer.
 Every answer the system produces names at least one source document.
 
 **Why this target:**
+
+Because this project is built from many short documents, every answer should point back to a document so it is clear which source it came from and not just a general statement. 
 <!-- Why all five and not four? What about your setup makes that achievable —
      or what would have to go wrong for it not to be? -->
 
@@ -50,12 +54,15 @@ in at least 4 of 5 tries.
      just keep five of them, or the "4 of 5" above has nothing to be 4 of. -->
 
 **Why this target:**
+This corpus is specific to campus life and local advice, so out-of-scope questions should be refused instead of answered with unrelated information.
 <!-- What did your distances look like when you set the cutoff in Milestone 4?
      Was there a clean gap, or did the two groups overlap? -->
 
 ---
 
 ## 4. Something about your chunks
+
+No chunk is over 800 characters.
 
 <!-- YOU WRITE THIS ONE.
 
@@ -72,12 +79,14 @@ in at least 4 of 5 tries.
 
 
 **Why this target:**
-
+This corpus contains many short, self-contained documents, so chunks should stay small enough to preserve a complete idea without overflowing into unrelated text. Keeping them under 800 characters makes retrieval more precise and the generated answer easier to ground in the source. 
 
 
 ---
 
 ## 5. Your choice
+
+Every answer comes back in under 30 seconds.
 
 <!-- YOU WRITE THIS ONE TOO.
 
@@ -90,7 +99,7 @@ in at least 4 of 5 tries.
 
 
 **Why this target:**
-
+This corpus contains many documents, so the system needs to return answers quickly enough to be practical in use. A 30-second limit keeps the experience responsive while still allowing the retrieval and generation steps to do their work. 
 
 
 ---
