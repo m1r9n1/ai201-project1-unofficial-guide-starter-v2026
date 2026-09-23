@@ -26,11 +26,12 @@
      this repo.
 
      Milestone 5. -->
+This project uses the campus life corpus. It helps students, staff, and anyone living on campus answer practical questions about school life and daily campus decisions. Examples include add and drop deadlines, class workload, and the cheapest housing options.
 
 ## Chunking Strategy
 
-**Chunk size:**
-**Overlap:**
+**Chunk size: 800 characters**
+**Overlap: 120 characters**
 
 <!-- What about YOUR documents made you pick these numbers? Short posts and
      long sectioned guides don't want the same chunking, and "800 seemed
@@ -125,9 +126,9 @@ The good: cheapest housing tier by about $900 a year, and the singles are real s
 
      Milestone 5. -->
 
-**1.**
+**1. I asked Cluade to write the chunking function from the notes I wrote, the overlap was not included so I added that.**
 
-**2.**
+**2. I asked Cluade to explain how it would test the five acceptance critera for a retrieval system.**
 
 <!-- ── Stretch features ─────────────────────────────────────────────────────
      Doing one? Say so here BEFORE you start. A feature this README never
